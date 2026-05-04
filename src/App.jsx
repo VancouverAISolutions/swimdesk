@@ -795,7 +795,7 @@ export default function SwimDesk() {
       {/* Page content */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6">
         {tab === 'dashboard' && <DashboardTab swimmers={swimmers} times={times} />}
-        {tab === 'lwimmers'  && <SwimmersTab  swimmers={swimmers} setSwimmers={setSwimmers} times={times} />}
+        {tab === 'swimmers'  && <SwimmersTab  swimmers={swimmers} setSwimmers={setSwimmers} times={times} />}
               {tab === 'times'     && <TimesTab     swimmers={swimmers} times={times} setTimes={setTimes} />}
         {tab === 'squads'    && <SquadBoardTab swimmers={swimmers} setSwimmers={setSwimmers} times={times} />}
       </main>
